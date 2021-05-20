@@ -12,3 +12,6 @@ def init_logger(name):
     logger.addHandler(console_handler)
 
     return logger
+
+
+logger = init_logger("doctolib_checker")
